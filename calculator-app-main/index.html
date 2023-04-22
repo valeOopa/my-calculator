@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+  <main id="main">
+    <article id="article-1">
+      <div id="header" class="class-margin">
+        <h1 id="header__title">calc</h1>
+        <div id="header__theme-section">
+          <p id="theme-text">THEME</p>
+          <div class="selectorControl">
+            <label id="label1" class="label" for="select1">1</label>
+            <label id="label2" class="label" for="select2">2</label>
+            <label id="label3" class="label" for="select3">3</label>
+            <input class="input" type="radio" name="unnombre" id="select1" checked>
+            <input class="input" type="radio" name="unnombre" id="select2">
+            <input class="input" type="radio" name="unnombre" id="select3">
+            <div class="bola"></div>
+          </div>
+        </div>
+      </div>
+      <p id="screen" class="class-margin"></p>
+      <div id="panel" class="class-margin">
+        <button class="button" id="btn-7">7</button>
+        <button class="button" id="btn-8">8</button>
+        <button class="button" id="btn-9">9</button>
+        <button class="button different blue" value="del" id="btn-del">DEL</button>
+
+        <button class="button" id="btn-4">4</button>
+        <button class="button" id="btn-5">5</button>
+        <button class="button" id="btn-6">6</button>
+        <button class="button" id="btn-plus">+</button>
+
+        <button class="button" id="btn-1">1</button>
+        <button class="button" id="btn-2">2</button>
+        <button class="button" id="btn-3">3</button>
+        <button class="button" id="btn-minus">-</button>
+
+        <button class="button" id="btn-point">.</button>
+        <button class="button" id="btn-zero">0</button>
+        <button class="button" id="btn-bar">/</button>
+        <button class="button" value="*" id="btn-by">x</button>
+
+        <button class="button different blue" value="res" id="btn-reset">RESET</button>
+        <button class="button different" value="=" id="btn-equals">=</button>
+      </div>
+    </article>
+  </main>
+  <script src="code.js"></script>
+</body>
+</html>
