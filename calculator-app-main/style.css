@@ -197,6 +197,10 @@ main {
 #panel .button:hover{
     cursor: pointer;
 }
+#panel .button:active{
+    filter: brightness(1.3);
+    -webkit-filter: brightness(1.3);
+}
 
 #panel .different{
     padding-top: 9%;
